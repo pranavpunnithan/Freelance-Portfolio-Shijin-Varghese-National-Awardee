@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shijin Varghese | Global Youth Humanitarian Leader</title>
+    <meta name="description" content="Official website of Shijin Varghese - Global youth humanitarian and social advocate from Kerala, India. Serving Humanity. Empowering Youth. Strengthening India." />
+    <meta name="author" content="Shijin Varghese" />
+    <meta name="keywords" content="Shijin Varghese, humanitarian, youth leader, Kerala, India, social service, SVI Wealth Management, SVI NextGen Pro" />
+
+    <!-- Favicon Configuration - SVI Branding Only -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" sizes="48x48" />
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" href="/favicon.svg" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <meta name="theme-color" content="#FF9933" />
+    
+    <!-- Canonical & Open Graph -->
+    <link rel="canonical" href="https://shijin-varghese-india.lovable.app" />
+    <meta property="og:url" content="https://shijin-varghese-india.lovable.app" />
+    <meta property="og:site_name" content="Shijin Varghese" />
+    <meta property="og:image" content="https://shijin-varghese-india.lovable.app/favicon.svg" />
+    <meta property="og:image:type" content="image/svg+xml" />
+    <meta property="og:image:width" content="32" />
+    <meta property="og:image:height" content="32" />
+    <meta property="og:title" content="Shijin Varghese | Global Youth Humanitarian Leader" />
+    <meta property="og:description" content="Official website of Shijin Varghese - Global youth humanitarian and social advocate from Kerala, India. Serving Humanity. Empowering Youth. Strengthening India." />
+    <meta property="og:type" content="website" />
+
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@shijinvarghese" />
+    <meta name="twitter:image" content="https://shijin-varghese-india.lovable.app/favicon.svg" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  </head>
+
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    <script>
+      // Handle SPA routing redirect from 404.html
+      (function(l) {
+        if (l.search[1] === '/') {
+          var decoded = l.search.slice(1).split('&').map(function(s) {
+            return s.replace(/~and~/g, '&')
+          }).join('?');
+          window.history.replaceState(null, null, l.pathname.slice(0, -1) + decoded + l.hash);
+        }
+      }(window.location))
+    </script>
+  </body>
+</html>
